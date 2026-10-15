@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket League - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>QUIZ ROCKET LEAGUE</h1>
+        <p>Es-tu un vrai champion ?</p>
+    </header>
+
+    <nav>
+        <a href="robin.html">Accueil</a>
+        <a href="jeu.html">Le jeu</a>
+        <a href="voitures.html">Les voitures</a>
+        <a href="modes.html">Les modes</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Teste tes connaissances !</h2>
+            <p>Réponds aux 5 questions puis clique sur
+               « Vérifier mes réponses ».</p>
+
+            <form id="quiz">
+                <fieldset>
+                    <legend>1. Quel sport inspire Rocket League ?</legend>
+                    <label><input type="radio" name="q1" value="a"> Le tennis</label>
+                    <label><input type="radio" name="q1" value="b"> Le football</label>
+                    <label><input type="radio" name="q1" value="c"> Le rugby</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2. Avec quoi joue-t-on ?</legend>
+                    <label><input type="radio" name="q2" value="a"> Des motos</label>
+                    <label><input type="radio" name="q2" value="b"> Des avions uniquement</label>
+                    <label><input type="radio" name="q2" value="c"> Des voitures</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3. Quel est l'objectif principal ?</legend>
+                    <label><input type="radio" name="q3" value="a"> Marquer des buts</label>
+                    <label><input type="radio" name="q3" value="b"> Faire des courses</label>
+                    <label><input type="radio" name="q3" value="c"> Trouver un trésor</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4. Laquelle est une voiture de Rocket League ?</legend>
+                    <label><input type="radio" name="q4" value="a"> Ferrari F40</label>
+                    <label><input type="radio" name="q4" value="b"> Octane</label>
+                    <label><input type="radio" name="q4" value="c"> Vélo</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>5. Combien de joueurs y a-t-il dans un match classique en 3 contre 3 ?</legend>
+                    <label><input type="radio" name="q5" value="a"> 3 joueurs au total</label>
+                    <label><input type="radio" name="q5" value="b"> 4 joueurs au total</label>
+                    <label><input type="radio" name="q5" value="c"> 6 joueurs au total</label>
+                </fieldset>
+
+                <button class="bouton" type="submit">
+                    Vérifier mes réponses
+                </button>
+
+                <button class="bouton" type="reset">
+                    Recommencer
+                </button>
+            </form>
+
+            <div id="resultat" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mon projet sur Rocket League - 2026</p>
+    </footer>
+</body>
+</html>

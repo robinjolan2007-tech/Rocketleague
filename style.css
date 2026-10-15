@@ -1,0 +1,93 @@
+
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    margin: 0;
+}
+
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: blue;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+
+.accueil {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+h2 {
+    color: darkblue;
+}
+
+
+.bouton {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.image-site {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+
+section {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+fieldset {
+    text-align: left;
+    margin: 15px;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+#resultat {
+    color: darkblue;
+    font-weight: bold;
+    margin: 20px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ 
